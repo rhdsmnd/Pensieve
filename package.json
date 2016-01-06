@@ -1,0 +1,18 @@
+{
+  "name": "Pensieve",
+  "version": "0.0.0",
+  "description": "App that uses the genius api to manage, collect, and organize your genius annotations as you wish.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhdsmnd/Pensieve.git"
+  },
+  "author": "Ronald Desmond",
+  "license": "New BSD License",
+  "bugs": {
+    "url": "https://github.com/rhdsmnd/Pensieve/issues"
+  }
+}

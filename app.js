@@ -19,6 +19,11 @@ httpServer.get('*', function(req, res) {
 });
 
 app.get('/', function(req, res) {
+    console.log('redirecting');
+    res.redirect('https://api.genius.com/oauth/authorize/?client_id=uMTvHSICCNZWX_k4PKtrF6247uDmUVH0orpPAGyeo_yFNR5cCpznC6xtxW73g0Bn&redirect_uri=https://127.0.0.1/home&scope=me&state=0&response_type=code');
+});
+
+app.get('/home', function(req, res) {
     console.log(req.url);
     res.send('hello world');
 });
